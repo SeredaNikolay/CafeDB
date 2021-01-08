@@ -1,0 +1,143 @@
+body{
+    position: relative;
+    margin: 0px;
+    padding: 0px;
+    background-color: #008080;
+}
+
+table{
+    position: relative;
+    box-sizing: border-box;
+    border-spacing: 0px;
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    height: auto;
+    background-color: #2754dc;
+}
+
+caption{
+    position: relative;
+    box-sizing: border-box;
+    position: relative;
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    height: auto;
+    background-color:#000080;
+    color: #B0E0E6;
+    text-align: center;
+    font-size: 24pt;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #000000;
+}
+
+th{
+    position: relative;
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    width: auto;
+    height: auto;
+    background-color:#0000FF;
+    color:#B0E0E6;
+    font-size: 18pt;
+    border-style: solid;
+    border-width: 2px;
+    border-top-width: 0px;
+    border-color: #000000;
+}
+
+td{
+    position: relative;
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    font-size: 14pt;
+    text-align: center;
+    border-style: solid;
+    border-width: 1px;
+    border-color: navy;
+}
+
+.inputField{
+    display: table-column;
+    position: absolute;
+    box-sizing: border-box;  
+    margin: 0px;
+    padding: 0px;
+    left:0;
+    right:0;
+    top:0;
+    bottom:0;
+    width: 100%;
+    border-style: solid;
+    border-width: 0px;
+    border-color: navy;
+    font-size: 14pt;
+    background-color: #87CEEB;
+    color: #000000;
+}
+.queryInputField{
+    display: inline-block;
+    position: relative;
+    box-sizing: border-box;  
+    margin: 0px;
+    padding: 0px;
+    left:0;
+    right:0;
+    top:0;
+    bottom:0;
+    width: 100%;
+    border-style: solid;
+    border-width: 0px;
+    border-color: navy;
+    font-size: 14pt;
+    background-color: #87CEEB;
+    color: #000000;
+}
+
+.smallButton{
+    display: inline-block;
+    position: relative;
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    width: 50%;
+    height: auto;
+    font-size: 14pt;
+    text-align: center;
+    background-color: #7B68EE;
+    color:#000000;
+    border-style: solid;
+    border-width: 1px;
+    border-color:#000000;
+}
+
+.bigButton{
+    position: relative;
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    height: auto;
+    font-size: 14pt;
+    text-align: center;
+    background-color: #0000FF;
+    color:#B0E0E6;
+}
+
+.querySelectBox{
+    position: relative;
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    height: auto;
+    font-size: 14pt;
+    text-align: center;
+    text-align-last: center;
+    background-color: #1E90FF;
+    color:#000000;
+}
